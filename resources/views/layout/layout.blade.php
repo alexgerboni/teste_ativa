@@ -12,11 +12,18 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
-    <style>
-        .front.row {
-            margin-bottom: 30px;
-        }
-    </style>
+    <link href="https://www.viaativa.com.br/css/viaativa.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link rel="shortcut icon" href="https://www.viaativa.com.br/media/logos/favicon.ico" />
+    <script src="https://www.viaativa.com.br/js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/gsap.min.js"></script>
+        <!--animação com jquery-->
+    <script src="{{asset('js/animate.js')}}"></script>
+      <style>
+          .front.row {
+              margin-bottom: 30px;
+          }
+      </style>
 
      @yield('stylesheets')
 

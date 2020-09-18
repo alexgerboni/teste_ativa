@@ -2,13 +2,13 @@
 @section('content')
 <div id="carouselExampleControls" class="carousel slide imagen" data-ride="carousel">
   	<div class="carousel-inner">
-  	   <section class="carousel-item active">
+  	   <section class="carousel-item active"><!--controle um inicio-->
   	   	 <div class="container">
   	   	 	<div class="row">
   	   	 			<div>
   	   	 			</div>
 			    	<div class="col-md-6" >
-			    		<img src="{{asset('img/logo-top.png')}}"  width="150" style="margin-bottom:20%;margin-top: 20px"> 
+			    		<img src="{{asset('img/logo-top.png')}}" width="150" style="margin-bottom:20%;margin-top: 20px"> 
 			    		<h1 style="font-family: Montserrat; font-weight: 900; color: white;margin-top:20%" >SEU SITE <span style="color:#613289 ">DIZ MUITO</span>
 	                    <span style="color:#613289 ">SOBRE</span> SUA EMPRESA</h1>  
 	                    <p style="color: white">Para existir no mundo dos negócios é fundamental estar na Internet.
@@ -23,18 +23,21 @@
 					    <span class="sr-only">next</span>
 					  </a>  
 			    	</div>
-				     <div class="col-md-4">
-				     	 <img class="anima" src="{{asset('img/homem.png')}}" alt="Second slide">
+				     <div class="col-md-4 indent">
+				     	 <div class="imagens">
+				     	 	<img class="homem1"  src="{{asset('img/homem.png')}}"alt="Second slide">
+				     	 	<img class="robozinho-home" style="width: 300px; margin-right: -200px" src="https://www.viaativa.com.br/media/imagens/robo.webp">
+				     	 </div>
 				     </div>
 				     <div class="col-md-1">
-				     	 <img style="border: none; margin-left:-100px;margin-top: 100px" class="wow animated zoomIn anima" data-wow-duration="10s" src="{{asset('img/triangulo-roxo.png')}}">
+				     	 <img style="border: none; margin-left:-100px;margin-top: -200px" class=" triangulo1 wow animated zoomIn animas" data-wow-duration="10s" src="{{asset('img/triangulo-roxo.png')}}">
 				     </div>
-				      <div class="col-md-1">
-				     	 <img class="img-fluid wow animated zoomIn "  style="margin-left:300px;margin-top: 100px"  data-wow-duration="10s" src="{{asset('img/bola-roxa.png')}}">
+				     <div class="col-md-1" >
+				     	 <img class="bolinha1 wow animated zoomIn animas active"  style="margin-right:-200px;margin-top: -100px;"  data-wow-duration="10s" src="{{asset('img/bola-roxa.png')}}">
 				     </div>
   	   	 	</div>
   	   	 </div>
-  	   </section>
+  	   </section><!--fechmaneto do controle um-->
 	   <section class="carousel-item">
 	   	 <div class="container">
 	   	 	<div class="row">
@@ -63,7 +66,7 @@
 		    		 <img  src="{{asset('img/robozinho.png')}}" alt="first slide">
 		    	</div>
 		    	 <div class="col-md-1 ">
-				     	 <img style="border: none; margin-left:-500px;margin-top: 800px" class="wow animated zoomIn"   data-wow-duration="10s" src="{{asset('img/triangulo-roxo.png')}}">
+				     	 <img style="border: none; margin-left:-500px;margin-top: 800px" class="wow animated zoomIn animas"   data-wow-duration="10s" src="{{asset('img/triangulo-roxo.png')}}">
 				 </div>
 	   	 	</div>
 	   	 </div>
@@ -78,10 +81,10 @@
   	   	 			<div>
   	   	 			</div>
   	   	 			<div class="col-md-1">
-				     	 <img style="border: none; margin-left:-100px;margin-top: 100px" class="wow animated zoomIn "  data-wow-duration="10s" src="{{asset('img/bola-azul.png')}}">
+				     	 <img style="border: none; margin-left:-100px;margin-top: 100px" class="wow animated zoomIn"  data-wow-duration="10s" src="{{asset('img/bola-azul.png')}}">
 				     </div>
 				      <div class="col-md-1">
-				     	 <img class=" wow animated zoomIn "  style="margin-left:200px;margin-top: 300px"   data-wow-duration="10s" src="{{asset('img/triangulo-azul.png')}}">
+				     	 <img class=" wow animated zoomIn"  style="margin-left:200px;margin-top: 300px"   data-wow-duration="10s" src="{{asset('img/triangulo-azul.png')}}">
 				     </div>
 				     <div class="col-md-4">
 				     	 <img src="{{asset('img/homem2.png')}}" style="margin-left: -600px" alt="Second slide">
@@ -114,7 +117,7 @@
 				     	 <img data-wow-duration="10s"  style="margin-left:300px;margin-top: 700px" src="{{asset('img/triangulo-azul.png')}}" class="wow animated zoomIn " >
 					</div>
 	   	 		<div class="col-md-4">
-		    		 <img  src="{{asset('img/dino.png')}}" class="anima" alt="first slide" style="margin-left: -400px">
+		    		 <img  src="{{asset('img/dino.png')}}" alt="first slide" style="margin-left: -400px">
 		    	</div>
 		   	 	<div class="col-md-6">
 				   	<h1 style="font-family: Montserrat; font-weight: 900; color: white;margin-top:80%">QUAL É A NOSSA
