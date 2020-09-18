@@ -1,0 +1,27 @@
+.imagen{
+	border: none;
+	height: auto;
+	background-color: #F8781C;
+	
+}
+.imagen_secundo{
+	border: none;
+	height: auto;
+	background-image: url('../img/fundo-rosa.png');
+}
+.animation_image{
+	background-image: url('../img/triangulo-roxo.png');
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+/***** controle de imagens***/
+.carousel-control-prev-icon{
+  background-image: url(../img/110.png)!important;
+  background-size: 0px;
+}
+.carousel-control-next-icon{
+  background-image: url(../img/110.png)!important;
+  background-size: 0px;
+}
